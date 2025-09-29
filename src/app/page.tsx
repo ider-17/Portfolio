@@ -10,6 +10,18 @@ export default function Home() {
             <p>Resume</p>
           </div>
         </div>
+
+        <div className="flex mt-10">
+          <div className="w-[60%]">
+            <div className="flex gap-2 font-bold">
+              <h2>Hello,</h2>
+              <h2 className="text-green-500">I'm</h2>
+            </div>
+          </div>
+          <div className="w-[40%]">
+            <img src="" />
+          </div>
+        </div>
       </div>
     </div>
   );
