@@ -17,10 +17,14 @@ export default function Home() {
               <h2>Hello,</h2>
               <h2 className="text-green-500">I'm</h2>
             </div>
+            <h2 className="text-green-500 font-bold text-3xl">IDER ARIUNAA</h2>
+            <h3>FULLSTACK Developer</h3>
+            <p>
+              Full-stack Engineer passionate about building modern, user-focused
+              web applications with clean design and powerful functionality.
+            </p>
           </div>
-          <div className="w-[40%]">
-            <img src="" />
-          </div>
+          <div className="w-[40%]">{/* <img src="" /> */}</div>
         </div>
       </div>
     </div>
