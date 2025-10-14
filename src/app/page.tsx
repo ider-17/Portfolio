@@ -37,13 +37,13 @@ export default function Home() {
         </h2>
         <div className="flex justify-around gap-8 [&>*]:font-bold [&>*]:text-lg [&>*]:select-none [&>*]:hover:text-green-500 [&>*]:cursor-pointer [&>*]:hover:underline [&>*]:hover:underline-offset-4">
           <p>Home</p>
-          <p>Projects</p>
+          {/* <p>Projects</p> */}
           <p>Skills</p>
-          <p>Resume</p>
+          {/* <p>Resume</p> */}
         </div>
       </header>
 
-      <section className="w-4/5 h-fit py-4 px-8 mx-auto mt-10">
+      <section className="w-4/5 h-fit py-4 px-8 mx-auto mt-10 select-none">
         <div className="flex mt-10">
           <div className="w-[60%] flex flex-col justify-center gap-4">
             <h1 className="text-4xl">Hello, I'm</h1>
@@ -84,15 +84,18 @@ export default function Home() {
               </a>
             </div>
 
-            <button className="p-2 border rounded-full text-green-500 border-green-500 hover:border-white hover:text-white w-fit cursor-pointer">
+            {/* <button className="py-2 px-4 border rounded-full text-green-500 border-green-500 hover:border-white hover:text-white w-fit cursor-pointer">
               Hire Me
-            </button>
+            </button> */}
           </div>
           <div className="w-[40%]">
             <img src="/assets/profile.webp" className="rounded-xl" />
           </div>
         </div>
       </section>
+
+      {/* skills section */}
+      <section></section>
     </div>
   );
 }
