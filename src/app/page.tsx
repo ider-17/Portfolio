@@ -99,8 +99,8 @@ export default function Home() {
         </h2>
         <div className="flex justify-around gap-8 [&>*]:font-bold [&>*]:text-lg [&>*]:select-none [&>*]:hover:text-green-500 [&>*]:cursor-pointer [&>*]:hover:underline [&>*]:hover:underline-offset-4">
           <a href="#home">Home</a>
-          {/* <p>Projects</p> */}
           <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
           {/* <p>Resume</p> */}
         </div>
       </header>
@@ -175,10 +175,22 @@ export default function Home() {
                 src={`${skill.image}`}
                 className="w-full h-[200px] object-contain object-center rounded-lg"
               />
-              <h5 className="text-3xl font-bold">{skill.name}</h5>
+              <h5 className="text-3xl font-bold text-green-500">
+                {skill.name}
+              </h5>
             </div>
           ))}
         </div>
+      </section>
+
+      {/* projects */}
+      <section
+        id="projects"
+        className="w-4/5 h-fit py-4 px-8 mx-auto mt-10 select-none pt-20"
+      >
+        <h2 className="text-center text-5xl text-green-500 font-bold mb-10">
+          My Projects
+        </h2>
       </section>
     </div>
   );
